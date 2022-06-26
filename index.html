@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="image-back">
+    <div class="main-container">
+      <ul class="sub-container">
+        <li>
+          <div class="temp-div">
+            <div class="black-div">
+              <img
+                src="./pictures/sunny.jpg"
+                id="bgc-img"
+                class="background-image"
+              />
+              <ul class="temp-details">
+                <li>
+                  <ul class="temp-val-date">
+                    <li id="temp-value" class="temparature-value"></li>
+                    <li id="date-val"></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <ul class="temp-info-inside">
+                    <li id="city-value"></li>
+                    <li>
+                      <ul class="temp-weather">
+                        <li id="temp-icon"></li>
+                        <li id="weather-type"></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="information-div">
+            <ul class="search-and-button">
+              <li>
+                <input
+                  type="search"
+                  value="kolkata"
+                  id="search"
+                  placeholder="Search"
+                />
+              </li>
+              <li>
+                <button class="btn" onclick="add()">
+                  <i class="fa fa-search" style="color: white"></i>
+                </button>
+              </li>
+            </ul>
+            <div class="other-elements">
+              <ul class="other-elements-inside">
+                <li id="wind-speed">wind-speed:</li>
+                <li id="humidity">Humidity:</li>
+                <li id="pressure">Pressure:</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./javascript/index.js"></script>
+  </body>
+</html>
