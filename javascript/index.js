@@ -31,7 +31,7 @@ const bgc_pics = [
   "./pictures/sunny.jpg",
   "./pictures/rainny.jpg",
   "./pictures/thunderstorm.jpg",
-  "./pictures/Haze.jpg",
+  "./pictures/haze.jpg",
   "./pictures/snow.jpg",
 ];
 const image_bgc = [
